@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">TallerGrupalAndroid</string>
+    <string name="edt1">Usuario</string>
+    <string name="edt2">Contraseña</string>
+    <string name="txt_usuario"></string>
+    <string name="txt_contraseña"></string>
+    <string name="checkTerminos">Terminos y Condiciones.</string>
+    <string name="checkRecordar">Recordar mis datos.</string>
+    <string name="btnIngresar">INGRESAR</string>
+    <string name="btnRegistrar">REGISTRARME</string>
+    <string name="txt_resultado"></string>
+    <string name="txt_usuariologeado"></string>
+
+
+    <string name="dialogERROR">Error!</string>
+    <string name="dialogSUCCESS">Todo Correcto!</string>
+
+    <string name="loginIncorrecto">Usuario No Existe</string>
+    <string name="passwordIncorrecto">Tu usuario si existe pero la contraseña es incorrecta</string>
+    <string name="LlenarCampos">Porfavor llena todos los campos!</string>
+    <string name="passwordcorta">La contraseña debe tener 6 o mas digitos!</string>
+    <string name="passwordnoiguales">Las contraseñas no coinciden!</string>
+
+    <string name="registrocorrecto">Te has registrado correctamente, regresa al login</string>
+
+    <string name="botonregistropositivo">Logearme</string>
+    <string name="botonrecuperarcontraseña">Recuperar contraseña</string>
+
+
+    <string name="emailincorrecto">Ingresa un email existente!</string>
+    <string name="emailvacio">Ingresa un email porfavor!</string>
+
+    <string name="codigoenviado">Codigo enviado!</string>
+    <string name="codigovacio">Ingrese un codigo!</string>
+
+    <string name="codigocorrecto">Codigo de recuperacion correcto!</string>
+    <string name="codigoincorrecto">El codigo es incorrecto!</string>
+
+    <string name="Restablecimientocorrecto">Se ha modificado la contraseña correctamente</string>
+
+    <string name="Ayuda">Ayuda</string>
+    <string name="ok">OK</string>
+    <string name="cancelar">Cancelar</string>
+
+    <string name="nombres">Realizado Por:\n\nErnesto Felipe Polo Prada \nMichael Jose Nossa Barrios</string>
+
+
+</resources>

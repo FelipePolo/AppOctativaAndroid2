@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PrincipalActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:elevation="4dp"
+        android:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        android:titleTextColor="?android:attr/colorForegroundInverse"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"></androidx.appcompat.widget.Toolbar>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="#BCD5D2D2"
+        android:gravity="center"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <Button
+            android:id="@+id/Bayuda"
+            style="@style/Widget.AppCompat.Button"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_weight="1"
+            android:background="#00FFFFFF"
+            android:hapticFeedbackEnabled="false"
+            app:icon="@drawable/ic_ayuda"
+            app:iconGravity="top"
+            app:iconSize="30dp"
+            app:iconTint="@color/purple_700" />
+
+        <Button
+            android:id="@+id/Bhome"
+            style="@style/Widget.AppCompat.Button"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_weight="1"
+            android:background="#00FFFFFF"
+            android:hapticFeedbackEnabled="false"
+            app:icon="@drawable/ic_baseline_home_24"
+            app:iconGravity="top"
+            app:iconSize="30dp"
+            app:iconTint="@color/purple_700" />
+
+        <Button
+            android:id="@+id/Bcerrar"
+            style="@style/Widget.AppCompat.Button"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_weight="1"
+            android:background="#00FFFFFF"
+            android:hapticFeedbackEnabled="false"
+            app:icon="@drawable/ic_cerrar"
+            app:iconGravity="top"
+            app:iconSize="30dp"
+            app:iconTint="@color/purple_700" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/Bfisica"
+        android:layout_width="226dp"
+        android:layout_height="191dp"
+        android:layout_marginTop="52dp"
+        android:text="FISICA"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar" />
+
+    <Button
+        android:id="@+id/Btexto"
+        android:layout_width="170dp"
+        android:layout_height="160dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="60dp"
+        android:text="Texto"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Bfisica" />
+
+    <Button
+        android:id="@+id/Bgeometria"
+        android:layout_width="170dp"
+        android:layout_height="160dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="60dp"
+        android:text="Geometria"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.666"
+        app:layout_constraintStart_toEndOf="@+id/Btexto"
+        app:layout_constraintTop_toBottomOf="@+id/Bfisica" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
